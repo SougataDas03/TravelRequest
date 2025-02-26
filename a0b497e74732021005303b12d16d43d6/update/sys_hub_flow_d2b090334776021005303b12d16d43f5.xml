@@ -4,15 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=234018000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=499539000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>f748c4b34736021005303b12d16d43c7</copied_from>
         <copied_from_name>Travel Request </copied_from_name>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>copy_of_travel_request</internal_name>
-        <label_cache>[{"name":"5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id","label":"9 - Create Record➛Travel Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1196900_travel_0_travel_request","column_name":"sys_id"},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location","label":"10 - For Each➛Flight Details➛To Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location","label":"10 - For Each➛Flight Details➛From Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number","label":"10 - For Each➛Flight Details➛Flight Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline","label":"10 - For Each➛Flight Details➛Airline","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance","label":"10 - For Each➛Flight Details➛Allowance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date","label":"10 - For Each➛Flight Details➛Flight Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.flight_details","label":"8 - Get Catalog Variables➛flight_details","reference":"","reference_display":"flight_details","type":"array.object","base_type":"array.object","attributes":{"child_label":"Flight Details","child_type_label":"Object","child_type":"object","child_name":"flight_details"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.total_allowance","label":"8 - Get Catalog Variables➛total_allowance","reference":"","reference_display":"total_allowance","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.company","label":"8 - Get Catalog Variables➛company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.requested_by","label":"8 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"399a3cf5-d07e-48ac-b167-64bed8c673b7.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
+        <label_cache>[{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.currency","label":"10 - For Each➛Flight Details➛Currency","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item","label":"10 - For Each➛Flight Details","reference_display":"Flight Details","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id","label":"9 - Create Record➛Travel Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1196900_travel_0_travel_request","column_name":"sys_id"},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location","label":"10 - For Each➛Flight Details➛To Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location","label":"10 - For Each➛Flight Details➛From Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number","label":"10 - For Each➛Flight Details➛Flight Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline","label":"10 - For Each➛Flight Details➛Airline","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance","label":"10 - For Each➛Flight Details➛Allowance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date","label":"10 - For Each➛Flight Details➛Flight Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.flight_details","label":"8 - Get Catalog Variables➛flight_details","reference":"","reference_display":"flight_details","type":"array.object","base_type":"array.object","attributes":{"child_label":"Flight Details","child_type_label":"Object","child_type":"object","child_name":"flight_details"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.total_allowance","label":"8 - Get Catalog Variables➛total_allowance","reference":"","reference_display":"total_allowance","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.company","label":"8 - Get Catalog Variables➛company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.requested_by","label":"8 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"399a3cf5-d07e-48ac-b167-64bed8c673b7.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
         <master_snapshot>e9e2d0f34776021005303b12d16d43b2</master_snapshot>
+        <master_snapshot_digest/>
         <name>Travel Request</name>
         <natlang/>
         <outputs/>
@@ -24,13 +29,14 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2b090334776021005303b12d16d43f5</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Travel Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
@@ -38,8 +44,9 @@
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_update_name>sys_hub_flow_d2b090334776021005303b12d16d43f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:26</sys_updated_on>
         <type>flow</type>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d2b090334776021005303b12d16d43f5"/>
     <sys_variable_value action="delete_multiple" query="document_key=d2b090334776021005303b12d16d43f5"/>
@@ -61,26 +68,6 @@
         <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
     </sys_flow_catalog_trigger>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d2b090334776021005303b12d16d43f5"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=d2b090334776021005303b12d16d43f5^sys_idNOT INaeb0d0334776021005303b12d16d437c"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
-        <name>Service Catalog</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-21 14:10:40</sys_created_on>
-        <sys_id>aeb0d0334776021005303b12d16d437c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
-        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>service_catalog</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=aeb0d0334776021005303b12d16d437c"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=d2b090334776021005303b12d16d43f5"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=d2b090334776021005303b12d16d43f5^sys_idNOT IN52b090334776021005303b12d16d43f6"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -159,14 +146,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:38</sys_created_on>
         <sys_id>12b0d0334776021005303b12d16d4301</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -243,14 +230,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:38</sys_created_on>
         <sys_id>52b090334776021005303b12d16d43fd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -266,6 +253,26 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=52b090334776021005303b12d16d43fd"/>
     <sys_hub_flow_output action="delete_multiple" query="model=d2b090334776021005303b12d16d43f5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d2b090334776021005303b12d16d43f5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d2b090334776021005303b12d16d43f5^sys_idNOT INaeb0d0334776021005303b12d16d437c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:10:40</sys_created_on>
+        <sys_id>aeb0d0334776021005303b12d16d437c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:25</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aeb0d0334776021005303b12d16d437c"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=d2b090334776021005303b12d16d43f5^sys_idNOT IN22b0d0334776021005303b12d16d4358,2eb0d0334776021005303b12d16d4342,2eb0d0334776021005303b12d16d4348,66b0d0334776021005303b12d16d4350,92b0d0334776021005303b12d16d4323,aeb0d0334776021005303b12d16d437a,e2b0d0334776021005303b12d16d4375,eab0d0334776021005303b12d16d435d,eab0d0334776021005303b12d16d4363,eab0d0334776021005303b12d16d436f,eeb0d0334776021005303b12d16d4369"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -276,16 +283,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>22b0d0334776021005303b12d16d4358</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:17</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>36329cfb-7ad1-41f0-b8d8-b70807d87c8e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=22b0d0334776021005303b12d16d4358"/>
@@ -365,16 +373,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>2eb0d0334776021005303b12d16d4342</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:17</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>71dbd954-eb60-40ab-a4bf-f09a7e2e9eaa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2eb0d0334776021005303b12d16d4342"/>
@@ -454,16 +463,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>2eb0d0334776021005303b12d16d4348</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:17</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>5729343c-b87c-41bd-8eea-4014d4f94a72</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2eb0d0334776021005303b12d16d4348"/>
@@ -543,16 +553,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>66b0d0334776021005303b12d16d4350</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:17</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>399a3cf5-d07e-48ac-b167-64bed8c673b7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=66b0d0334776021005303b12d16d4350"/>
@@ -696,16 +707,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>92b0d0334776021005303b12d16d4323</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:17</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>92518e3d-a17d-4507-9615-ab52b7ac1a87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=92b0d0334776021005303b12d16d4323"/>
@@ -785,16 +797,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id>bbaeb8c7-3c0d-427c-9b52-7520cf2322da</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:40</sys_created_on>
         <sys_id>aeb0d0334776021005303b12d16d437a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:18</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>a287b858-e5df-4e2c-90ff-23612512f831</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aeb0d0334776021005303b12d16d437a"/>
@@ -874,16 +887,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>13</order>
         <parent_ui_id>bbaeb8c7-3c0d-427c-9b52-7520cf2322da</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>e2b0d0334776021005303b12d16d4375</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:18</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>5e62f06d-4a79-434f-8a5c-d2a5cb7e4f02</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e2b0d0334776021005303b12d16d4375"/>
@@ -963,16 +977,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>eab0d0334776021005303b12d16d435d</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:17</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>ccbeb9b5-6c6a-49c6-8045-58c836477f87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eab0d0334776021005303b12d16d435d"/>
@@ -1052,16 +1067,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>eab0d0334776021005303b12d16d4363</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:17</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>bd5f5684-be7c-418a-b7ad-e20d3450849c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eab0d0334776021005303b12d16d4363"/>
@@ -1141,16 +1157,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>add4cc60-42c8-49b5-9dcc-de6ca22e920d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>eab0d0334776021005303b12d16d436f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:18</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>0b17d8cb-6caa-467d-87cb-51cac624e5ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eab0d0334776021005303b12d16d436f"/>
@@ -1187,11 +1204,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>6eb0d0334776021005303b12d16d4370</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-21 14:10:39</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:03</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>airline={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline}}^allowance={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance}}^flight_date={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date}}^flight_number={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number}}^from_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location}}^to_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location}}^travel_request_id={{5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id}}</value>
+        <value>airline={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline}}^flight_date={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date}}^flight_number={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number}}^from_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location}}^to_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location}}^travel_request_id={{5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id}}^allowance={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance}}^currency={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.currency}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=eab0d0334776021005303b12d16d436f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=eab0d0334776021005303b12d16d436f"/>
@@ -1204,16 +1221,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:39</sys_created_on>
         <sys_id>eeb0d0334776021005303b12d16d4369</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:31:18</sys_updated_on>
+        <sys_updated_on>2024-10-17 09:13:07</sys_updated_on>
         <ui_id>5e10a9ea-925a-4598-9a1e-594afe0c6277</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eeb0d0334776021005303b12d16d4369"/>
@@ -1258,11 +1276,10 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=eeb0d0334776021005303b12d16d4369"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=eeb0d0334776021005303b12d16d4369"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d2b090334776021005303b12d16d43f5"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=d2b090334776021005303b12d16d43f5^sys_idNOT IN16b0d0334776021005303b12d16d431d,5eb0d0334776021005303b12d16d4314,9eb0d0334776021005303b12d16d4319"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">449bc4f74736021005303b12d16d43a4</block>
+        <block display_value="">f8424e254743421036c69e20116d43c5</block>
         <comment/>
         <connected_to>a718bbaf-fd2d-48c0-94b9-609e7d19b614</connected_to>
         <decision_table/>
@@ -1272,6 +1289,7 @@
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>12</order>
@@ -1282,10 +1300,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:38</sys_created_on>
         <sys_id>16b0d0334776021005303b12d16d431d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:26</sys_updated_on>
         <ui_id>bbaeb8c7-3c0d-427c-9b52-7520cf2322da</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1295,7 +1313,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=16b0d0334776021005303b12d16d431d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">ac0b0cb74736021005303b12d16d4374</block>
+        <block display_value="">a4424e254743421036c69e20116d43a7</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1305,6 +1323,7 @@
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1316,10 +1335,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:38</sys_created_on>
         <sys_id>5eb0d0334776021005303b12d16d4314</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:26</sys_updated_on>
         <ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1368,7 +1387,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=5eb0d0334776021005303b12d16d4314"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">b80b0cb74736021005303b12d16d4391</block>
+        <block display_value="">b0424e254743421036c69e20116d43bf</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1378,6 +1397,7 @@
         <flow display_value="Travel Request">d2b090334776021005303b12d16d43f5</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1389,10 +1409,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:10:38</sys_created_on>
         <sys_id>9eb0d0334776021005303b12d16d4319</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:26</sys_updated_on>
         <ui_id>add4cc60-42c8-49b5-9dcc-de6ca22e920d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1413,6 +1433,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9eb0d0334776021005303b12d16d4319"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9eb0d0334776021005303b12d16d4319"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d2b090334776021005303b12d16d43f5"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=d2b090334776021005303b12d16d43f5"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=d2b090334776021005303b12d16d43f5"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d2b090334776021005303b12d16d43f5^sys_idNOT IN1ab0d0334776021005303b12d16d4311,52b0d0334776021005303b12d16d4300"/>
@@ -1471,13 +1492,15 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1200000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>f748c4b34736021005303b12d16d43c7</copied_from>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>copy_of_travel_request</internal_name>
-        <label_cache>[{"name":"5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id","label":"9 - Create Record➛Travel Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1196900_travel_0_travel_request","column_name":"sys_id"},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location","label":"10 - For Each➛Flight Details➛To Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location","label":"10 - For Each➛Flight Details➛From Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number","label":"10 - For Each➛Flight Details➛Flight Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline","label":"10 - For Each➛Flight Details➛Airline","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance","label":"10 - For Each➛Flight Details➛Allowance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date","label":"10 - For Each➛Flight Details➛Flight Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.flight_details","label":"8 - Get Catalog Variables➛flight_details","reference":"","reference_display":"flight_details","type":"array.object","base_type":"array.object","attributes":{"child_label":"Flight Details","child_type_label":"Object","child_type":"object","child_name":"flight_details"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.total_allowance","label":"8 - Get Catalog Variables➛total_allowance","reference":"","reference_display":"total_allowance","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.company","label":"8 - Get Catalog Variables➛company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.requested_by","label":"8 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"399a3cf5-d07e-48ac-b167-64bed8c673b7.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
+        <label_cache>[{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.currency","label":"10 - For Each➛Flight Details➛Currency","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item","label":"10 - For Each➛Flight Details","reference_display":"Flight Details","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id","label":"9 - Create Record➛Travel Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1196900_travel_0_travel_request","column_name":"sys_id"},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location","label":"10 - For Each➛Flight Details➛To Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location","label":"10 - For Each➛Flight Details➛From Location","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number","label":"10 - For Each➛Flight Details➛Flight Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline","label":"10 - For Each➛Flight Details➛Airline","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance","label":"10 - For Each➛Flight Details➛Allowance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date","label":"10 - For Each➛Flight Details➛Flight Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.flight_details","label":"8 - Get Catalog Variables➛flight_details","reference":"","reference_display":"flight_details","type":"array.object","base_type":"array.object","attributes":{"child_label":"Flight Details","child_type_label":"Object","child_type":"object","child_name":"flight_details"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.total_allowance","label":"8 - Get Catalog Variables➛total_allowance","reference":"","reference_display":"total_allowance","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.company","label":"8 - Get Catalog Variables➛company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bd5f5684-be7c-418a-b7ad-e20d3450849c.requested_by","label":"8 - Get Catalog Variables➛requested_by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"399a3cf5-d07e-48ac-b167-64bed8c673b7.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"}]</label_cache>
         <master>true</master>
         <name>Travel Request</name>
         <natlang/>
@@ -1494,7 +1517,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9e2d0f34776021005303b12d16d43b2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1502,31 +1525,12 @@
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <type>flow</type>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=e9e2d0f34776021005303b12d16d43b2"/>
     <sys_variable_value action="delete_multiple" query="document_key=e9e2d0f34776021005303b12d16d43b2"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=e9e2d0f34776021005303b12d16d43b2^sys_idNOT IN86e214f34776021005303b12d16d4370"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
-        <name>Service Catalog</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-21 14:20:11</sys_created_on>
-        <sys_id>86e214f34776021005303b12d16d4370</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:03</sys_updated_on>
-        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>service_catalog</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=86e214f34776021005303b12d16d4370"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=e9e2d0f34776021005303b12d16d43b2"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=e9e2d0f34776021005303b12d16d43b2^sys_idNOT INe9e2d0f34776021005303b12d16d43b3"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1605,14 +1609,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:09</sys_created_on>
         <sys_id>31e2d0f34776021005303b12d16d43cf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:00</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1689,14 +1693,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:09</sys_created_on>
         <sys_id>ade2d0f34776021005303b12d16d43b4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:00</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1712,6 +1716,26 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ade2d0f34776021005303b12d16d43b4"/>
     <sys_hub_flow_output action="delete_multiple" query="model=e9e2d0f34776021005303b12d16d43b2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e9e2d0f34776021005303b12d16d43b2"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e9e2d0f34776021005303b12d16d43b2^sys_idNOT IN86e214f34776021005303b12d16d4370"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:20:11</sys_created_on>
+        <sys_id>86e214f34776021005303b12d16d4370</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 08:56:25</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=86e214f34776021005303b12d16d4370"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=e9e2d0f34776021005303b12d16d43b2^sys_idNOT IN02e214f34776021005303b12d16d430a,06e214f34776021005303b12d16d4317,06e214f34776021005303b12d16d431f,06e214f34776021005303b12d16d435c,0ee214f34776021005303b12d16d4356,7de2d0f34776021005303b12d16d43ea,86e214f34776021005303b12d16d436e,b1e2d0f34776021005303b12d16d43f1,cae214f34776021005303b12d16d4302,cae214f34776021005303b12d16d430f,fde2d0f34776021005303b12d16d43f8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1722,16 +1746,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>6</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>02e214f34776021005303b12d16d430a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>36329cfb-7ad1-41f0-b8d8-b70807d87c8e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02e214f34776021005303b12d16d430a"/>
@@ -1811,16 +1836,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>8</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>06e214f34776021005303b12d16d4317</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>bd5f5684-be7c-418a-b7ad-e20d3450849c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=06e214f34776021005303b12d16d4317"/>
@@ -1900,16 +1926,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>9</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>06e214f34776021005303b12d16d431f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>5e10a9ea-925a-4598-9a1e-594afe0c6277</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=06e214f34776021005303b12d16d431f"/>
@@ -1963,16 +1990,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>13</order>
         <parent_ui_id>bbaeb8c7-3c0d-427c-9b52-7520cf2322da</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:11</sys_created_on>
         <sys_id>06e214f34776021005303b12d16d435c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>5e62f06d-4a79-434f-8a5c-d2a5cb7e4f02</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=06e214f34776021005303b12d16d435c"/>
@@ -2052,16 +2080,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>11</order>
         <parent_ui_id>add4cc60-42c8-49b5-9dcc-de6ca22e920d</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:11</sys_created_on>
         <sys_id>0ee214f34776021005303b12d16d4356</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>0b17d8cb-6caa-467d-87cb-51cac624e5ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0ee214f34776021005303b12d16d4356"/>
@@ -2098,11 +2127,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:11</sys_created_on>
         <sys_id>8ee214f34776021005303b12d16d4357</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-21 14:20:11</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>airline={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline}}^allowance={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance}}^flight_date={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date}}^flight_number={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number}}^from_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location}}^to_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location}}^travel_request_id={{5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id}}</value>
+        <value>airline={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.airline}}^flight_date={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_date}}^flight_number={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.flight_number}}^from_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.from_location}}^to_location={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.to_location}}^travel_request_id={{5e10a9ea-925a-4598-9a1e-594afe0c6277.record.sys_id}}^allowance={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.allowance}}^currency={{add4cc60-42c8-49b5-9dcc-de6ca22e920d.item.currency}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0ee214f34776021005303b12d16d4356"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0ee214f34776021005303b12d16d4356"/>
@@ -2115,16 +2144,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>7de2d0f34776021005303b12d16d43ea</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <ui_id>92518e3d-a17d-4507-9615-ab52b7ac1a87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7de2d0f34776021005303b12d16d43ea"/>
@@ -2204,16 +2234,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>14</order>
         <parent_ui_id>bbaeb8c7-3c0d-427c-9b52-7520cf2322da</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:11</sys_created_on>
         <sys_id>86e214f34776021005303b12d16d436e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>a287b858-e5df-4e2c-90ff-23612512f831</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86e214f34776021005303b12d16d436e"/>
@@ -2293,16 +2324,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>b1e2d0f34776021005303b12d16d43f1</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <ui_id>71dbd954-eb60-40ab-a4bf-f09a7e2e9eaa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1e2d0f34776021005303b12d16d43f1"/>
@@ -2382,16 +2414,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>cae214f34776021005303b12d16d4302</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <ui_id>399a3cf5-d07e-48ac-b167-64bed8c673b7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cae214f34776021005303b12d16d4302"/>
@@ -2535,16 +2568,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>7</order>
         <parent_ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>cae214f34776021005303b12d16d430f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>ccbeb9b5-6c6a-49c6-8045-58c836477f87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cae214f34776021005303b12d16d430f"/>
@@ -2624,16 +2658,17 @@
         <comment/>
         <display_text/>
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
+        <generation_source/>
         <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:10</sys_created_on>
         <sys_id>fde2d0f34776021005303b12d16d43f8</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <ui_id>5729343c-b87c-41bd-8eea-4014d4f94a72</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fde2d0f34776021005303b12d16d43f8"/>
@@ -2704,11 +2739,10 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fde2d0f34776021005303b12d16d43f8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fde2d0f34776021005303b12d16d43f8"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e9e2d0f34776021005303b12d16d43b2"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=e9e2d0f34776021005303b12d16d43b2^sys_idNOT IN75e2d0f34776021005303b12d16d43da,b1e2d0f34776021005303b12d16d43e3,f5e2d0f34776021005303b12d16d43df"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">ac0b0cb74736021005303b12d16d4374</block>
+        <block display_value="">a4424e254743421036c69e20116d43a7</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2718,6 +2752,7 @@
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2729,10 +2764,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:09</sys_created_on>
         <sys_id>75e2d0f34776021005303b12d16d43da</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:22</sys_updated_on>
         <ui_id>a718bbaf-fd2d-48c0-94b9-609e7d19b614</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2781,7 +2816,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=75e2d0f34776021005303b12d16d43da"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">449bc4f74736021005303b12d16d43a4</block>
+        <block display_value="">f8424e254743421036c69e20116d43c5</block>
         <comment/>
         <connected_to>a718bbaf-fd2d-48c0-94b9-609e7d19b614</connected_to>
         <decision_table/>
@@ -2791,6 +2826,7 @@
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>12</order>
@@ -2801,10 +2837,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:09</sys_created_on>
         <sys_id>b1e2d0f34776021005303b12d16d43e3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>bbaeb8c7-3c0d-427c-9b52-7520cf2322da</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2814,7 +2850,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=b1e2d0f34776021005303b12d16d43e3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
-        <block display_value="">b80b0cb74736021005303b12d16d4391</block>
+        <block display_value="">b0424e254743421036c69e20116d43bf</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2824,6 +2860,7 @@
         <flow display_value="Travel Request">e9e2d0f34776021005303b12d16d43b2</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -2835,10 +2872,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:09</sys_created_on>
         <sys_id>f5e2d0f34776021005303b12d16d43df</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-24 07:11:01</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:23</sys_updated_on>
         <ui_id>add4cc60-42c8-49b5-9dcc-de6ca22e920d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2859,6 +2896,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f5e2d0f34776021005303b12d16d43df"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f5e2d0f34776021005303b12d16d43df"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e9e2d0f34776021005303b12d16d43b2"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=e9e2d0f34776021005303b12d16d43b2"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=e9e2d0f34776021005303b12d16d43b2"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e9e2d0f34776021005303b12d16d43b2^sys_idNOT IN35e2d0f34776021005303b12d16d43d3,f5e2d0f34776021005303b12d16d43cb"/>
@@ -2914,24 +2952,24 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>d2b090334776021005303b12d16d43f5</sys_id>
         <latest_snapshot>e9e2d0f34776021005303b12d16d43b2</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch9-05-02-2024_05-14-2024_2249.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d2b090334776021005303b12d16d43f5^sys_idNOT INa6e214f34776021005303b12d16d43dc"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a6e214f34776021005303b12d16d43dc","name":"plan","plan_signature":null}}</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a6e214f34776021005303b12d16d43dc","name":"plan","plan_signature":null}}</plan>
         <plan_id>d2b090334776021005303b12d16d43f5</plan_id>
-        <snapshot>2d12166047c3021005303b12d16d43b9</snapshot>
+        <snapshot>da38b62dc3dd5210945e9e1d0501310f</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 14:20:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6e214f34776021005303b12d16d43dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-21 14:20:12</sys_updated_on>
+        <sys_updated_on>2024-06-27 08:56:25</sys_updated_on>
         <trigger display_value="">eee214f34776021005303b12d16d43db</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d2b090334776021005303b12d16d43f5"/>
